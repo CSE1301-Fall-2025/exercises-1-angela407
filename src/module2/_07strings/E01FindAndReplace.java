@@ -5,6 +5,7 @@ public class E01FindAndReplace {
 	//Exercise 1: After running this program to understand how it works,
 	//modify it to add a counter that counts the number of 1's that have been
 	//replaced. 
+	// I don't know how to do the task - Angela
 	public static void main(String[] args) {
 		String message = "Have a 1ong and happy 1ife";
 		int index = 0;
@@ -24,4 +25,3 @@ public class E01FindAndReplace {
 		System.out.println("Cleaned text: " + message);
 	}
 }
-

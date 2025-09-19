@@ -1,5 +1,7 @@
 package module2._03elseif;
 
+import javax.sound.sampled.SourceDataLine;
+
 public class E03BatteryTest {
 
 	//Exercise 3: Finish this program so that it prints out
@@ -8,7 +10,14 @@ public class E03BatteryTest {
 	//and "All okay!" otherwise. Test all three situations.
 	public static void main(String[] args) {
 		int battery = 60;
-
-		System.out.println("All okay!");
+		if (battery <50) {
+			System.out.println("Plug in your phone!");
+		}
+		else if (battery > 100)	{
+			System.out.println("Unplug your phone!");
+		}	
+		else {
+			System.out.println("All okay!");
+		}
 	}
 }
